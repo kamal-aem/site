@@ -36,8 +36,8 @@
       min-height: calc(100vh - var(--nav-height));
       display: flex;
       align-items: center;
-      background: url("/icons/404-image.png") no-repeat right;
-      background-size: contain;
+      /* background: url("/icons/404-image.png") no-repeat right;
+      background-size: contain; */
     }
 
     main .section{
@@ -69,7 +69,11 @@
           <a href="/" class="button secondary error-button-home">Go home</a>
         </p>
       </div>
-      <div></div>
+      <div>
+        <picture>
+          <img src="/icons/404-image.png" alt="404 error image" style="width:auto" />
+        </picture>
+      </div>
     </div>
   </main>
   <footer></footer>
