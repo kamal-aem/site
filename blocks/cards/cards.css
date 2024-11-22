@@ -25,3 +25,14 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards.custom li{
+  background-color: #00A3A3;
+  color: #fff;
+  box-shadow: 0 10px 30px rgb(255 0 0 / 13%);
+}
+
+.light-grey.cards-container{
+  background-color: #f2f3f5;
+  padding: 20px 0 50px;
+}

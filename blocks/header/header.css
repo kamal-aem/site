@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  box-shadow: 0 0 0 1px rgba(64, 87, 109, .07), 0 0 8px 0 rgba(57, 76, 96, .15);
 }
 
 header nav {

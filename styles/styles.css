@@ -12,10 +12,10 @@
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: #00FFFF;
   --light-color: #f8f8f8;
   --dark-color: #505050;
-  --text-color: #131313;
+  --text-color: #FF00FF;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
@@ -254,4 +254,24 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+.light-center{
+  text-align: center;
+}
+
+.darkblue{
+  background-color: darkblue;
+}
+
+.section[data-name="Types of buttons"]>div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero.tandc{
+  display: flex;
+  align-items: center;
+  color: #fff;
 }

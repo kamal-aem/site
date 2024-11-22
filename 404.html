@@ -36,6 +36,13 @@
       min-height: calc(100vh - var(--nav-height));
       display: flex;
       align-items: center;
+      background: url("/icons/404-image.png") no-repeat right;
+      background-size: contain;
+    }
+
+    main .section{
+      display: grid;
+      grid-template-columns: auto auto;
     }
 
     main.error .error-number {
@@ -53,13 +60,16 @@
   <header></header>
   <main class="error">
     <div class="section">
-      <svg viewBox="1 0 38 18" class="error-number">
-        <text x="0" y="17">404</text>
-      </svg>
-      <h2 class="error-message">Page Not Found</h2>
-      <p class="button-container">
-        <a href="/" class="button secondary error-button-home">Go home</a>
-      </p>
+      <div>
+        <svg viewBox="1 0 38 18" class="error-number">
+          <text x="0" y="17">404</text>
+        </svg>
+        <h2 class="error-message">Page Not Found</h2>
+        <p class="button-container">
+          <a href="/" class="button secondary error-button-home">Go home</a>
+        </p>
+      </div>
+      <div></div>
     </div>
   </main>
   <footer></footer>

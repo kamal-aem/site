@@ -7,10 +7,17 @@ footer .footer > div {
   margin: auto;
   max-width: 1200px;
   padding: 40px 24px 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer .footer p {
   margin: 0;
+}
+
+footer img{
+  width: 50px;
+  height: 45px;
 }
 
 @media (width >= 900px) {
